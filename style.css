@@ -109,7 +109,7 @@ li .details {
   line-height: 1.3125rem;
 }
 
-/* SECTION */
+/* FOOTER */
 footer {
   max-width: 18.75rem;
   margin: 0 auto;
@@ -122,7 +122,6 @@ footer h3 {
 
 footer .row {
   display: flex;
-  
 }
 
 footer .column {
