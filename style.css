@@ -62,6 +62,11 @@ header p {
   color: rgba(0, 0 , 0, 0.7);
 }
 
+header p span{
+  font-size: var(--text-font-size);
+  color: var(--title-color-second);
+}
+
 /* SECTION */
 
 section {
@@ -71,6 +76,13 @@ section h2 {
   background-color: var(--base-color-second);
   padding: 8px 16px;
   text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: var(--subtitle-font-size);
+}
+
+section h2  span{
+  color: var(--title-color-second);
+  padding: 8px 16px;
   margin-bottom: 1.5rem;
   font-size: var(--subtitle-font-size);
 }
@@ -95,5 +107,33 @@ li .details {
   color: rgba(0, 0 , 0, 0.6);
   font-size: var(--text-font-size);
   line-height: 1.3125rem;
+}
+
+/* SECTION */
+footer {
+  max-width: 18.75rem;
+  margin: 0 auto;
+}
+
+footer h3 {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer .row {
+  display: flex;
+  
+}
+
+footer .column {
+  display: flex;
+  justify-content: center;
+  flex: auto;
+  margin-bottom: 2rem;  
+}
+
+footer .column img {
+  max-width: 6rem;
+  max-height: 3rem;
 }
 
