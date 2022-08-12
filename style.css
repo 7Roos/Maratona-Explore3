@@ -11,7 +11,7 @@ ul {
 /*******VARIABLES***********/
 :root {
   /*Color*/
-  --hue: 34;
+  --hue: 64;
   --base-color: hsl(var(--hue) 100% 91%);
   --title-color: hsl(var(--hue) 3% 17%);
   --title-color-second: hsl(var(--hue) 100% 30%);
