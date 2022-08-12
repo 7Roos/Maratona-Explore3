@@ -10,11 +10,17 @@ ul {
 
 /*******VARIABLES***********/
 :root {
+  /*Color*/
   --hue: 34;
   --base-color: hsl(var(--hue) 100% 91%);
   --title-color: hsl(var(--hue) 3% 17%);
   --title-color-second: hsl(var(--hue) 100% 30%);
   --base-color-second: hsl(var(--hue) 97% 83%);
+  /*Fonts*/
+  --title-font-size: 1.75rem;
+  --subtitle-font-size: 1.125rem;
+  --sub-subtitle-font-size: 1rem;
+  --text-font-size: 0.875rem;
 }
 
 /*******BASE***********/
@@ -42,7 +48,7 @@ header, section {
 
 header h1 {
   margin-bottom: 0.25rem;
-  font-size: 1.75rem;
+  font-size: var(--title-font-size);
   line-height: 2.0625rem;
 }
 
@@ -51,7 +57,7 @@ header h1 span {
 }
 
 header p {
-  font-size: 0.875rem;
+  font-size: var(--text-font-size);
   line-height: 1rem;
   color: rgba(0, 0 , 0, 0.7);
 }
@@ -66,7 +72,7 @@ section h2 {
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 1.5rem;
-  font-size: 1.125rem;
+  font-size: var(--subtitle-font-size);
 }
 
 /* LISTA */
@@ -81,13 +87,13 @@ li .details {
 
 .details h3 {
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: var(--sub-subtitle-font-size);
   line-height: 1.1875rem;
 }
 
 .details p {
   color: rgba(0, 0 , 0, 0.6);
-  font-size: 0.875rem;
+  font-size: var(--text-font-size);
   line-height: 1.3125rem;
 }
 
