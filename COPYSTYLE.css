@@ -3,6 +3,10 @@
   margin: 0%;
   padding: 0%;
 }
+body {
+  background-color: #FFEDD5;
+  font-family: 'Roboto', sans-serif;
+}
 
 ul {
   list-style: none;
@@ -10,23 +14,13 @@ ul {
 
 /*******VARIABLES***********/
 :root {
-  --hue: 34;
-  --base-color: hsl(var(--hue) 100% 91%);
-  --title-color: hsl(var(--hue) 3% 17%);
-  --title-color-second: hsl(var(--hue) 100% 30%);
-  --base-color-second: hsl(var(--hue) 97% 83%);
-}
-
-/*******BASE***********/
-body {
-  background-color: var(--base-color);
-  font-family: 'Roboto', sans-serif;
+  
 }
 /* FONTS */
 h1, h2, h3, .price {
   font-family: 'Roboto Serif', serif;
   text-transform: uppercase;
-  color: var(--title-color);
+  color: #2D2C2A;
 }
 
 /* HEADER */
@@ -47,7 +41,7 @@ header h1 {
 }
 
 header h1 span {
-  color: var(--title-color-second);
+  color: #995000;
 }
 
 header p {
@@ -62,7 +56,7 @@ section {
   margin-bottom: 24px;
 }
 section h2 {
-  background-color: var(--base-color-second);
+  background-color: #FED7AA;
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 1.5rem;
